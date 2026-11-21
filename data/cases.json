@@ -1,0 +1,246 @@
+{
+ "groups": {
+  "bus_a": [
+   "vibration",
+   "temperature"
+  ],
+  "bus_b": [
+   "pressure",
+   "current"
+  ],
+  "zone_c": [
+   "acoustic",
+   "humidity"
+  ]
+ },
+ "n_units": 36,
+ "regimes": {
+  "grouped": {
+   "achieved_rate": 0.2357,
+   "driver": "group",
+   "per_sensor_rate": {
+    "acoustic": 0.1825,
+    "current": 0.3016,
+    "humidity": 0.1825,
+    "pressure": 0.3016,
+    "temperature": 0.2228,
+    "vibration": 0.2228
+   }
+  },
+  "iid": {
+   "achieved_rate": 0.2486,
+   "driver": "none",
+   "per_sensor_rate": {
+    "acoustic": 0.25,
+    "current": 0.2511,
+    "humidity": 0.2545,
+    "pressure": 0.2505,
+    "temperature": 0.2505,
+    "vibration": 0.2353
+   }
+  },
+  "informative": {
+   "achieved_rate": 0.2342,
+   "driver": "health",
+   "per_sensor_rate": {
+    "acoustic": 0.2065,
+    "current": 0.2264,
+    "humidity": 0.1574,
+    "pressure": 0.2548,
+    "temperature": 0.2708,
+    "vibration": 0.2894
+   }
+  }
+ },
+ "seed": 7,
+ "sensor_vulnerability": {
+  "acoustic": 0.45,
+  "current": 0.6,
+  "humidity": 0.3,
+  "pressure": 0.7,
+  "temperature": 0.9,
+  "vibration": 1.0
+ },
+ "units": [
+  {
+   "lifetime": 110,
+   "mean_health": 0.692,
+   "unit_id": 0
+  },
+  {
+   "lifetime": 135,
+   "mean_health": 0.6912,
+   "unit_id": 1
+  },
+  {
+   "lifetime": 98,
+   "mean_health": 0.6926,
+   "unit_id": 2
+  },
+  {
+   "lifetime": 149,
+   "mean_health": 0.6908,
+   "unit_id": 3
+  },
+  {
+   "lifetime": 134,
+   "mean_health": 0.6912,
+   "unit_id": 4
+  },
+  {
+   "lifetime": 144,
+   "mean_health": 0.691,
+   "unit_id": 5
+  },
+  {
+   "lifetime": 122,
+   "mean_health": 0.6916,
+   "unit_id": 6
+  },
+  {
+   "lifetime": 114,
+   "mean_health": 0.6919,
+   "unit_id": 7
+  },
+  {
+   "lifetime": 110,
+   "mean_health": 0.692,
+   "unit_id": 8
+  },
+  {
+   "lifetime": 122,
+   "mean_health": 0.6916,
+   "unit_id": 9
+  },
+  {
+   "lifetime": 94,
+   "mean_health": 0.6928,
+   "unit_id": 10
+  },
+  {
+   "lifetime": 105,
+   "mean_health": 0.6922,
+   "unit_id": 11
+  },
+  {
+   "lifetime": 125,
+   "mean_health": 0.6915,
+   "unit_id": 12
+  },
+  {
+   "lifetime": 115,
+   "mean_health": 0.6918,
+   "unit_id": 13
+  },
+  {
+   "lifetime": 120,
+   "mean_health": 0.6917,
+   "unit_id": 14
+  },
+  {
+   "lifetime": 127,
+   "mean_health": 0.6914,
+   "unit_id": 15
+  },
+  {
+   "lifetime": 144,
+   "mean_health": 0.691,
+   "unit_id": 16
+  },
+  {
+   "lifetime": 109,
+   "mean_health": 0.6921,
+   "unit_id": 17
+  },
+  {
+   "lifetime": 128,
+   "mean_health": 0.6914,
+   "unit_id": 18
+  },
+  {
+   "lifetime": 144,
+   "mean_health": 0.691,
+   "unit_id": 19
+  },
+  {
+   "lifetime": 95,
+   "mean_health": 0.6927,
+   "unit_id": 20
+  },
+  {
+   "lifetime": 123,
+   "mean_health": 0.6916,
+   "unit_id": 21
+  },
+  {
+   "lifetime": 110,
+   "mean_health": 0.692,
+   "unit_id": 22
+  },
+  {
+   "lifetime": 140,
+   "mean_health": 0.6911,
+   "unit_id": 23
+  },
+  {
+   "lifetime": 133,
+   "mean_health": 0.6912,
+   "unit_id": 24
+  },
+  {
+   "lifetime": 123,
+   "mean_health": 0.6916,
+   "unit_id": 25
+  },
+  {
+   "lifetime": 127,
+   "mean_health": 0.6914,
+   "unit_id": 26
+  },
+  {
+   "lifetime": 90,
+   "mean_health": 0.693,
+   "unit_id": 27
+  },
+  {
+   "lifetime": 148,
+   "mean_health": 0.6909,
+   "unit_id": 28
+  },
+  {
+   "lifetime": 146,
+   "mean_health": 0.6909,
+   "unit_id": 29
+  },
+  {
+   "lifetime": 116,
+   "mean_health": 0.6918,
+   "unit_id": 30
+  },
+  {
+   "lifetime": 131,
+   "mean_health": 0.6913,
+   "unit_id": 31
+  },
+  {
+   "lifetime": 139,
+   "mean_health": 0.6911,
+   "unit_id": 32
+  },
+  {
+   "lifetime": 116,
+   "mean_health": 0.6918,
+   "unit_id": 33
+  },
+  {
+   "lifetime": 121,
+   "mean_health": 0.6916,
+   "unit_id": 34
+  },
+  {
+   "lifetime": 109,
+   "mean_health": 0.6921,
+   "unit_id": 35
+  }
+ ]
+}
