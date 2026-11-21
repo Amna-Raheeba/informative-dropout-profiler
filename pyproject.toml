@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "informative-dropout-profiler"
+version = "0.1.0"
+description = "A profiler showing that PHM models are benchmarked against the wrong missingness: three seeded dropout regimes (iid, physically-grouped, failure-proximate informative) over identical degradation trajectories, measuring the robustness illusion gap, the imputation-ranking reversal, and naming the dropout mechanism and its drivers from the mask alone."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.30"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
