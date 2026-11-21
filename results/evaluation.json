@@ -1,0 +1,179 @@
+{
+  "cell_gaps": {
+    "grouped": {
+      "interp": {
+        "knn": 0.256713,
+        "ridge": 0.126459,
+        "single_sensor": 0.478271,
+        "tree": 0.258556
+      },
+      "locf": {
+        "knn": 0.545973,
+        "ridge": 0.434431,
+        "single_sensor": 0.616387,
+        "tree": 0.425021
+      },
+      "mean": {
+        "knn": -0.046186,
+        "ridge": 0.474711,
+        "single_sensor": -0.545053,
+        "tree": 0.14215
+      },
+      "unit_mean": {
+        "knn": -0.15089,
+        "ridge": 0.64493,
+        "single_sensor": 0.190086,
+        "tree": 0.104243
+      }
+    },
+    "informative": {
+      "interp": {
+        "knn": -0.047992,
+        "ridge": 0.012605,
+        "single_sensor": 1.147471,
+        "tree": 0.665202
+      },
+      "locf": {
+        "knn": -0.033848,
+        "ridge": -0.079299,
+        "single_sensor": 0.889962,
+        "tree": 0.511163
+      },
+      "mean": {
+        "knn": -0.216395,
+        "ridge": 1.021126,
+        "single_sensor": 6.410036,
+        "tree": 0.48672
+      },
+      "unit_mean": {
+        "knn": -0.183142,
+        "ridge": 0.99779,
+        "single_sensor": 6.39679,
+        "tree": 0.593041
+      }
+    }
+  },
+  "complete_rmse_mean": {
+    "knn": 15.945201,
+    "ridge": 14.367419,
+    "single_sensor": 17.738483,
+    "tree": 14.874168
+  },
+  "diagnosis_by_regime": {
+    "grouped": 1.0,
+    "iid": 1.0,
+    "informative": 1.0
+  },
+  "headline": {
+    "always_iid_accuracy": 0.333333,
+    "diagnosis_accuracy": 1.0,
+    "driver_accuracy": 1.0,
+    "gap_grouped": 0.436603,
+    "gap_informative": 0.489231,
+    "gap_informative_mean_fill": 1.925372,
+    "gap_informative_unit_mean": 1.95112,
+    "gap_informative_vs_complete": 0.077724,
+    "iid_best_is_worst_rate": 0.0,
+    "mar_screen_accuracy": 0.666667,
+    "rate_grouped": 0.250335,
+    "rate_iid": 0.249031,
+    "rate_informative": 0.232227,
+    "reversal_rate_informative": 0.375,
+    "worst_gap_informative": 6.410036
+  },
+  "missing_rate": {
+    "grouped": 0.250335,
+    "iid": 0.249031,
+    "informative": 0.232227
+  },
+  "n_runs": 6,
+  "rmse_mean": {
+    "grouped": {
+      "interp": {
+        "knn": 15.724227,
+        "ridge": 14.304698,
+        "single_sensor": 17.649805,
+        "tree": 14.896528
+      },
+      "locf": {
+        "knn": 16.169627,
+        "ridge": 14.693536,
+        "single_sensor": 18.282536,
+        "tree": 15.402476
+      },
+      "mean": {
+        "knn": 16.890539,
+        "ridge": 15.433015,
+        "single_sensor": 22.530932,
+        "tree": 15.969449
+      },
+      "unit_mean": {
+        "knn": 16.855011,
+        "ridge": 15.652572,
+        "single_sensor": 23.397756,
+        "tree": 16.271906
+      }
+    },
+    "iid": {
+      "interp": {
+        "knn": 15.467515,
+        "ridge": 14.178239,
+        "single_sensor": 17.171534,
+        "tree": 14.637972
+      },
+      "locf": {
+        "knn": 15.623654,
+        "ridge": 14.259106,
+        "single_sensor": 17.666149,
+        "tree": 14.977455
+      },
+      "mean": {
+        "knn": 16.936725,
+        "ridge": 14.958305,
+        "single_sensor": 23.075985,
+        "tree": 15.8273
+      },
+      "unit_mean": {
+        "knn": 17.005901,
+        "ridge": 15.007642,
+        "single_sensor": 23.20767,
+        "tree": 16.167663
+      }
+    },
+    "informative": {
+      "interp": {
+        "knn": 15.419523,
+        "ridge": 14.190844,
+        "single_sensor": 18.319005,
+        "tree": 15.303174
+      },
+      "locf": {
+        "knn": 15.589806,
+        "ridge": 14.179807,
+        "single_sensor": 18.556111,
+        "tree": 15.488618
+      },
+      "mean": {
+        "knn": 16.72033,
+        "ridge": 15.979431,
+        "single_sensor": 29.486021,
+        "tree": 16.31402
+      },
+      "unit_mean": {
+        "knn": 16.822759,
+        "ridge": 16.005432,
+        "single_sensor": 29.60446,
+        "tree": 16.760704
+      }
+    }
+  },
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206
+  ],
+  "worst_gap_cell": "mean/single_sensor"
+}
